@@ -23,8 +23,8 @@ This task shows you how to use Istio to dynamically limit the traffic to a servi
   test user "jason" to version v2 and requests from any other user to v3.
 
   ```bash
-  istioctl create -f samples/bookinfo/kube/route-rule-reviews-test-v2.yaml
-  istioctl create -f samples/bookinfo/kube/route-rule-reviews-v3.yaml
+  istioctl create -f samples/bookinfo/route-rule-reviews-test-v2.yaml
+  istioctl create -f samples/bookinfo/route-rule-reviews-v3.yaml
   ```
   
   > Note: if you have conflicting rule that you set in previous tasks,
@@ -188,8 +188,8 @@ selected by matching only three out of four quota dimensions.
 * Remove the application routing rules:
 
   ```
-  istioctl delete -f samples/bookinfo/kube/route-rule-reviews-test-v2.yaml
-  istioctl delete -f samples/bookinfo/kube/route-rule-reviews-v3.yaml
+  istioctl delete -f samples/bookinfo/route-rule-reviews-test-v2.yaml
+  istioctl delete -f samples/bookinfo/route-rule-reviews-v3.yaml
   ```
 
 ## What's next

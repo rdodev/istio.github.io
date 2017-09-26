@@ -40,7 +40,7 @@ uninstall it as follows in a Kubernetes environment:
 1. Delete the routing rules and terminate the application pods
 
    ```bash
-   samples/bookinfo/kube/cleanup.sh
+   samples/bookinfo/cleanup.sh
    ```
 
 1. Confirm shutdown

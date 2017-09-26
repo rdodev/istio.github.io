@@ -106,7 +106,7 @@ There are several steps:
    ...
    ```
   
-The service name and port are defined [here](https://github.com/istio/istio/blob/master/samples/bookinfo/kube/bookinfo.yaml).
+The service name and port are defined [here](https://github.com/istio/istio/blob/master/samples/bookinfo/bookinfo.yaml).
    
 Note that Istio uses [Kubernetes service account](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account) 
 as service identity, which offers stronger security than service name 
